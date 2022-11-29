@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation</title>
+    <style>
+        body{
+            background-color: burlywood;
+        }
+        .navbar{
+            background-color:black;
+            border-radius: 10px;
+        }
+        .navbar ul{
+            overflow: auto;
+           
+        }
+        .navbar li{
+            font-size: 20px;
+            float: left;
+            color: white;
+            list-style: none;
+            margin: 4px 31px;
+            padding: 11px 12px;
+            
+
+        }
+        .navbar li:hover{
+            cursor: pointer;
+            color: cyan;
+        }
+        .src{
+            float: right;
+            margin: 5px 5px;
+            /* margin-right: 180px; */
+            padding: 11px 5px;
+            padding-right: 150px;
+            
+        }
+        .rt{
+            border: none;
+            border-radius: 5px;
+            padding: 5px;
+        }
+        .btn{
+            float: right;
+            margin: 0px 8px;
+            padding: 3px 7px;
+        }
+        .btn:hover{
+            cursor: pointer;
+            background-color: coral;
+        }
+        .head{
+            display: flex;
+            flex-direction: column;
+            
+            font-size: 40px;
+            margin: -33px 10px;
+            padding: 5px 5px;
+        }
+        h1{
+            font-family: 'Times New Roman', Times, serif;
+        }
+        h2{
+            font-style: italic;
+            margin-top:-40px ;
+            margin-left: 100px;
+            padding-left: 30px;
+        }
+        h3{
+            float: right;
+            margin: -91px 145px;
+            font-size: 70px;
+            
+
+        }
+        .login Form{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            float: right;
+            margin: -36px 184px;
+            padding: 50px;
+        }
+        #nam{
+            margin: 4px;
+            margin-right: -122px;
+            margin-left: -120px;
+            padding: 6px;
+            font-size: 18px;
+
+        }
+        #btn2{
+            margin: 10px;
+            padding: 10px;
+            margin-left:-2px ;
+            margin-right: -11px;
+        }
+        #btn2:hover{
+            cursor: pointer;
+            background-color: darkorchid;
+        }
+        #anc{
+            font-size: 20px;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Careaar</li>
+                <li>Contact Us</li>
+                
+                
+                <div class="src">
+                    <input class="rt" type="text" name="#" placeholder="Search">
+                    <a href="#"><button class="btn">Click Here</button></a>
+                </div>
+                
+            </ul>
+            
+        </nav>
+    </header>
+    <div class="head">
+        <h1>NetTantra Technologies</h1>
+        <h2>Crafting Excellence</h2>
+
+    </div>
+    <div class="login Form">
+        <h3>Login Here</h3>
+        <form >
+            <input id="nam" type="email" name="#"  placeholder="Email">
+            <br>
+            <input id="nam" type="password" name="#" placeholder="Password">
+            <br>
+            <input id="btn2"  type="submit" name="" value="Login"> 
+            <br>
+            <a id="anc"href="#">Forget Password</a>
+            <br>
+            <a id="anc" href="#">New User</a> 
+
+        </form>
+    </div>
+    
+    
+    
+</body>
+</html>
